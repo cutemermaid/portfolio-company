@@ -1,0 +1,32 @@
+.mononheader {
+  width: $desktop-width;
+  height: 200px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 167px;
+    height: 58px;
+  }
+
+  .services {
+    flex: 1;
+    text-align: right;
+  }
+
+  div {
+    padding-right: 40px;
+  }
+
+  button {
+    width: 100px;
+    height: 25px;
+    background: #5528ff;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    line-height: 26px;
+  }
+}

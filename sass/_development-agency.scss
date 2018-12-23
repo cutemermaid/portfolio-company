@@ -1,0 +1,52 @@
+.development-agency {
+  max-width: $desktop-width;
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+
+  @include mobile {
+    background: red;
+    padding: 0px 20px;
+  }
+  @include tablet {
+    background: yellowgreen;
+    padding: 0px 50px;
+  }
+
+  .independent {
+    line-height: normal;
+    font-size: 56px;
+    color: #202020;
+  }
+  .independent-discription {
+    line-height: 50px;
+    font-size: 30px;
+    color: #4f4f4f;
+    margin-top: 24px;
+    margin-bottom: 70px;
+
+    .desktop-only {
+      @include mobile {
+        display: none;
+      }
+
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+
+  .independent-contactus {
+    width: 235px;
+    height: 60px;
+    font-size: 24px;
+    background: #5528ff;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    line-height: 26px;
+  }
+}

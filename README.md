@@ -5,6 +5,8 @@ https://www.figma.com/file/Xf0Oef8SzokB70snCukmNlI8/mamon.pro?node-id=22%3A0Inbo
 # Installation
 
 ```
+$ npm install -g lite-server
 $ npm install -g sass
 $ sass --watch sass/index.scss:css/index.css
+$ lite-server ./
 ```

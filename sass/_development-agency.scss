@@ -6,11 +6,9 @@
   flex-direction: column;
 
   @include mobile {
-    background: red;
     padding: 0px 20px;
   }
   @include tablet {
-    background: yellowgreen;
     padding: 0px 50px;
   }
 
@@ -48,40 +46,10 @@
     border: none;
     outline: none;
     line-height: 26px;
+    cursor: pointer;
 
-    @include mobile{
+    @include mobile {
       margin: 0 auto;
     }
   }
 }
-
-.middle-line {
-  border-bottom: 1px solid #E5E5E5;
-  margin-top: 109px;
-
-  .midline-block {
-    max-width: $desktop-width;
-    margin: 0px auto;
-
-    @include tablet{
-      padding: 0px 50px;
-    }
-    .our-services {
-      width: 80px;
-      height: 17px;
-      font-size: 10px;
-      background: white;
-      color: #C2C2C2;
-      position: relative;
-      top: 12px;
-      padding-left: 5px;
-      padding-right: 5px;
-
-      @include mobile{
-        margin: 0 auto;
-        text-align: center;
-      }
-    }
-  }
-}
-

@@ -1,6 +1,6 @@
 .middle-line {
   border-bottom: 1px solid #e5e5e5;
-  margin-top: 5px;
+  margin-top: 93px;
   margin-bottom: 109px;
 
   @include mobile {
@@ -9,9 +9,7 @@
   }
 
   &.middle-line-clients {
-    @include tablet {
-      margin-top: 13px;
-    }
+    margin-top: 13px;
 
     @include mobile {
       margin-top: -18px;
@@ -19,9 +17,7 @@
   }
 
   &.middle-line-team {
-    @include tablet {
-      margin-top: 23px;
-    }
+    margin-top: 23px;
 
     @include mobile {
       margin-top: -18px;

@@ -1,0 +1,66 @@
+.team {
+  max-width: $desktop-width;
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+
+  @include mobile {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  @include tablet {
+    padding: 0 50px;
+  }
+
+  .team-member {
+    display: flex;
+    width: 33%;
+    padding-bottom: 60px;
+
+    @include tablet {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+
+    @include mobile {
+      width: 100%;
+      padding-bottom: 40px;
+    }
+
+    .profilepic {
+      width: 155px;
+
+      img {
+        border-radius: 50%;
+      }
+
+      @include mobile {
+        width: 110px;
+      }
+    }
+
+    .member-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      padding-top: 15px;
+
+      .member-name {
+        line-height: normal;
+        font-size: 28px;
+        color: #202020;
+        font-weight: bold;
+      }
+
+      .designation {
+        line-height: normal;
+        font-size: 14px;
+        color: #b2b2b2;
+        margin-top: 10px;
+      }
+    }
+  }
+}

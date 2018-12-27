@@ -1,0 +1,41 @@
+.mamon-parent {
+  width: 100%;
+  height: 100px;
+  background: #f7f7f7;
+
+  .mamon-footer {
+    max-width: $desktop-width;
+    height: inherit;
+    margin: 0px auto;
+    display: flex;
+
+    @include mobile {
+      padding: 0 20px;
+    }
+
+    @include tablet {
+      padding: 0 50px;
+    }
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      flex: 1;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .footer-small-logo {
+      padding-right: 40px;
+
+      @include mobile {
+        padding-right: 20px;
+      }
+
+      &:last-child {
+        padding-right: 0px;
+      }
+    }
+  }
+}

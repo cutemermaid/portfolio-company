@@ -1,0 +1,32 @@
+.clients {
+  max-width: $desktop-width;
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include mobile {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  @include tablet {
+    padding: 0 50px;
+  }
+
+  .clients-logo {
+    width: 25%;
+    padding-bottom: 70px;
+
+    @include mobile {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+    @include tablet {
+      width: 33%;
+      text-align: center;
+    }
+  }
+}

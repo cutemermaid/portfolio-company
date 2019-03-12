@@ -5,7 +5,7 @@ I have designed a responsive website using a free figma template available on th
 https://www.figma.com/file/Xf0Oef8SzokB70snCukmNlI8/mamon.pro?node-id=22%3A0Inboxx
 https://monikagharat.wordpress.com/2018/12/29/company-website-responsive-layout
 
-# Installation
+# Installations
 
 ```
 $ npm install -g lite-server
